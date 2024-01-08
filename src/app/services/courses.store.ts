@@ -5,6 +5,7 @@ import { catchError, map, shareReplay, tap } from "rxjs/operators";
 import { Course, sortCoursesBySeqNo } from "../model/course";
 import { LoadingService } from "./../loading/loading.service";
 import { MessagesService } from "./../messages/messages.service";
+import { Lesson } from "../model/lesson";
 
 @Injectable({
   providedIn: "root",
